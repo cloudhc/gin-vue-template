@@ -24,8 +24,8 @@ type Config struct {
 
 func (config *Config) SetDefault() {
 	config.Port = "3000"
-	config.StaticFolder = "../public"
-	config.IndexFile = "../public/index.html"
+	config.StaticFolder = "../dist"
+	config.IndexFile = "../dist/index.html"
 } // }}}
 
 // ========== data

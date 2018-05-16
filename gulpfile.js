@@ -19,7 +19,7 @@ gulp.task('build', ['clean:build'], function() {
     .on('error', function handleError() {
       this.emit('end'); // Recover from errors
     })
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./'))
     .pipe(livereload());
 });
 
