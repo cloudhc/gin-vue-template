@@ -1,6 +1,6 @@
 # gin-vue-template
 
-> A Vue.js project
+> A Vue.js with Gin framework project
 
 ## Build Setup
 
@@ -8,8 +8,8 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve with hot reload at localhost:8082
+npm run start
 
 # build for production with minification
 npm run build
